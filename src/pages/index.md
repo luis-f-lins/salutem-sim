@@ -5,17 +5,11 @@ image: /img/woman-by-the-sea.jpg
 heading: Um lugar para se sentir bem
 subheading: Onde quer que você esteja
 mainpitch:
-  title: Why Kaldi
+  title: Salutem Sim
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam congue laoreet vulputate. Etiam lacus erat, feugiat in efficitur sagittis, iaculis in felis.
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Phasellus magna sapien, bibendum consectetur tortor in, pellentesque auctor lorem. Vestibulum fringilla lacus turpis, at varius felis viverra eget. Praesent bibendum interdum nunc vitae convallis. Donec vitae cursus velit. Maecenas ut elit quis erat luctus pretium.
 intro:
   blurbs:
     - image: /img/coffee.png
