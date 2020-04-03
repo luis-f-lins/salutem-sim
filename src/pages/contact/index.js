@@ -14,8 +14,33 @@ export default class Index extends React.Component {
     this.state = { isValidated: false };
   }
 
+  componentDidMount() {
+    var name = document.getElementById("name");
+    var email = document.getElementById("email");
+    var message = document.getElementById("message");
+
+    name.oninvalid = function(e) {
+      e.target.setCustomValidity("Esse campo é obrigatório");
+    };
+
+    email.oninvalid = function(e) {
+      e.target.setCustomValidity("Por favor, entre com um e-mail válido");
+    };
+    email.oninput = function(e) {
+      e.target.setCustomValidity("");
+    };
+    email.onchange = function(e) {
+      e.target.setCustomValidity("");
+    };
+
+    message.oninvalid = function(e) {
+      e.target.setCustomValidity("Esse campo é obrigatório");
+    };
+  }
+
   handleChange = e => {
     this.setState({ [e.target.name]: e.target.value });
+    e.target.setCustomValidity("");
   };
 
   handleSubmit = e => {
