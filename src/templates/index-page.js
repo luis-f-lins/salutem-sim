@@ -43,6 +43,7 @@ export const IndexPageTemplate = ({
               "rgb(233, 105, 85) 0.5rem 0px 0px, rgb(233, 105, 85) -0.5rem 0px 0px",
             backgroundColor: "rgb(233, 105, 85)",
             color: "white",
+            fontFamily: "Raleway",
             lineHeight: "1",
             padding: "0.25em",
             textAlign: "center"
@@ -57,6 +58,7 @@ export const IndexPageTemplate = ({
               "rgb(233, 105, 85) 0.5rem 0px 0px, rgb(233, 105, 85) -0.5rem 0px 0px",
             backgroundColor: "rgb(233, 105, 85)",
             color: "white",
+            fontFamily: "Raleway",
             lineHeight: "1",
             padding: "0.25em",
             textAlign: "center"
@@ -74,15 +76,17 @@ export const IndexPageTemplate = ({
               <div className="content">
                 <div className="content">
                   <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
+                    <h1 className="title is-family-secondary">
+                      {mainpitch.title}
+                    </h1>
                   </div>
                   <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
+                    <h4 className="subtitle">{mainpitch.description}</h4>
                   </div>
                 </div>
                 <div className="columns">
                   <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
+                    <h3 className="is-family-secondary has-text-weight-semibold is-size-2">
                       {heading}
                     </h3>
                     <p>{description}</p>

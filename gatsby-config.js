@@ -65,6 +65,21 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Raleway`,
+            variants: [`400`, `500`, `600`]
+          },
+          {
+            family: `Open Sans`,
+            variants: [`400`, `500`, `600`]
+          }
+        ]
+      }
+    },
+    {
       resolve: "gatsby-plugin-purgecss", // purges all unused/unreferenced css rules
       options: {
         develop: true, // Activates purging in npm run develop
