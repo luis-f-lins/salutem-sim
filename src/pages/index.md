@@ -3,7 +3,7 @@ templateKey: index-page
 title: Um lugar para se sentir bem
 image: /img/woman-by-the-sea.jpg
 heading: Um lugar para se sentir bem
-subheading: Seja acolhido onde quer que esteja
+subheading: Onde quer que você esteja
 mainpitch:
   title: Why Kaldi
   description: >
