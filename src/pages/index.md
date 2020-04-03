@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+title: Um lugar para se sentir bem
+image: /img/woman-by-the-sea.jpg
+heading: Um lugar para se sentir bem
+subheading: Seja acolhido onde quer que esteja
 mainpitch:
   title: Why Kaldi
   description: >
